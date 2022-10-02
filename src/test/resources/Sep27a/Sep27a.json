@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "verify login functionality with username and password",
+        "description": "",
+        "id": "verify-adactin-hotel-app-login-functionality;verify-login-functionality-with-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1508100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Adactin hotel login page",
+            "match": {
+              "location": "Sep27aStepDefWBase.user_is_on_Adactin_hotel_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.baseclass.BaseClass.locateById(BaseClass.java:79)\r\n\tat org.step.Sep27aStepDefWBase.user_enters_username_as_and_password_as(Sep27aStepDefWBase.java:21)\r\n\tat ✽.user enters username as \"Deepthik\" and password as \"Achyutha@12\"(src/test/resources/Sep27a.feature:5)\r\n",
+              "duration": 6841500,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user enters username as \"Deepthik\" and password as \"Achyutha@12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deepthik\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Achyutha@12\"",
+                  "offset": 51
+                }
+              ],
+              "location": "Sep27aStepDefWBase.user_enters_username_as_and_password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13600,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "clicks on login button",
+            "match": {
+              "location": "Sep27aStepDefWBase.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7900,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "it displays search hotel page",
+            "match": {
+              "location": "Sep27aStepDefWBase.it_displays_search_hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verify Adactin hotel app login functionality",
+    "description": "",
+    "id": "verify-adactin-hotel-app-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Sep27a.feature",
+    "tags": []
+  }
+]

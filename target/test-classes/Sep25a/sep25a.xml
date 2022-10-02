@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.25681">
+<testcase classname="verify the Adactin hotel app login functionality" name="verify the login functionality for multiple username and password" time="23.25681">
+<system-out><![CDATA[Given user is on Adactin login page.........................................passed
+When user enters username and password......................................passed
+And clicks on login button..................................................passed
+Then search hotel page appears..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,97 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "verify the username and password for multiple users",
+        "description": "",
+        "id": "verify-the-adactin-hotel-login-page;verify-the-username-and-password-for-multiple-users",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6109861800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Adactin login page",
+            "match": {
+              "location": "Sep25b2DWHStepDefiniton.userIsOnAdactinLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170325300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters username and password",
+            "match": {
+              "location": "Sep25b2DWHStepDefiniton.userEntersUsernameAndPassword(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "Deepthik",
+                  "Achyutha@12"
+                ]
+              },
+              {
+                "cells": [
+                  "user1",
+                  "test@123"
+                ]
+              },
+              {
+                "cells": [
+                  "user2",
+                  "test@456"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2850980800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks the login button",
+            "match": {
+              "location": "Sep25b2DWHStepDefiniton.userClicksTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "search hotel page appears",
+            "match": {
+              "location": "Sep25b2DWHStepDefiniton.searchHotelPageAppears()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verify the Adactin hotel login page",
+    "description": "",
+    "id": "verify-the-adactin-hotel-login-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Sep25b2DWH.feature",
+    "tags": []
+  }
+]

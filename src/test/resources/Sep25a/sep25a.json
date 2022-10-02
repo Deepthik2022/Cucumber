@@ -1,0 +1,79 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "verify the login functionality for multiple username and password",
+        "description": "",
+        "id": "verify-the-adactin-hotel-app-login-functionality;verify-the-login-functionality-for-multiple-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12399724900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Adactin login page",
+            "match": {
+              "location": "Step25a1DStepDefinition.user_is_on_Adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5172033600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters username and password",
+            "match": {
+              "location": "Step25a1DStepDefinition.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Deepthik",
+                  "Achyutha@12"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5681143300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "Step25a1DStepDefinition.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "search hotel page appears",
+            "match": {
+              "location": "Step25a1DStepDefinition.search_hotel_page_appears()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verify the Adactin hotel app login functionality",
+    "description": "",
+    "id": "verify-the-adactin-hotel-app-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Sep25a1D.feature",
+    "tags": []
+  }
+]

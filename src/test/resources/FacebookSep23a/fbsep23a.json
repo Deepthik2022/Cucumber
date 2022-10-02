@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify login functionality for valid Username and valid password",
+        "description": "",
+        "id": "verify-facebook-login-functionality;verify-login-functionality-for-valid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29129699700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Facebook page",
+            "match": {
+              "location": "Sep23aStepDefinition.user_is_on_Facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 168740300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters username as \"deepthi@gmail.com\" and password as \"test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"deepthi@gmail.com\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"test@123\"",
+                  "offset": 60
+                }
+              ],
+              "location": "Sep23aStepDefinition.user_enters_username_as_and_password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51947000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks the login button",
+            "match": {
+              "location": "Sep23aStepDefinition.clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "error page is displayed",
+            "match": {
+              "location": "Sep23aStepDefinition.error_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Facebook Login Functionality",
+    "description": "",
+    "id": "verify-facebook-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Sep23a.feature",
+    "tags": []
+  }
+]
